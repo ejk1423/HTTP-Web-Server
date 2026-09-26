@@ -1,0 +1,19 @@
+# WiFi credentials (copy secrets.h.example -> secrets.h)
+secrets.h
+
+# Arduino IDE / arduino-cli build output
+build/
+*.bin
+*.elf
+*.hex
+*.map
+
+# Host-side test binaries
+test/*.exe
+test/*.o
+test/test_http_server
+
+# Editors / OS
+.vscode/
+.DS_Store
+Thumbs.db
